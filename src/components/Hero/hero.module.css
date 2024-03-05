@@ -24,9 +24,7 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-robto);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1)70%, rgba(255, 255, 255, 0)120%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    color:var(--color-text)
 }
 
 .discription {
@@ -73,11 +71,26 @@
 
 .topblur {
     position: absolute;
-    width: 50vw;
-    height: 50vw;
-    min-width: 350px;
-    min-width: 350px;
-    top: -128px;
+    width: 300px;
+    height:300px;
+    min-width: 100px;
+    min-height: 100px;
+    top: -100px;
+    right: -10vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+
+
+}
+.bottomblur {
+    position: absolute;
+    width: 300px;
+    height:300px;
+    min-width: 100px;
+    min-height: 100px;
+    top: 200px;
     left: -10vw;
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.7);
@@ -87,21 +100,7 @@
 
 }
 
-.bottomblur {
-    position: absolute;
-    width: 70vw;
-    height: 50vw;
-    min-width: 250px;
-    min-width: 350px;
-    top: 246px;
-    right: -25vw;
-    border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
-    z-index: 0;
 
-
-}
 
 @media screen and (max-width:830px) {
     .container{
@@ -110,4 +109,22 @@
     .content{
         align-items: center;
     }
+    .title{
+        font-size: 50px;
+    }
+    .discription{
+        font-size: 25px;
+    }
+    .contactBtn{
+        font-size: 20px;
+    }
+    .heroImg{
+    width: 40%;
+
+    }
 }
+/* @media screen and (max-width:400px) {
+  .topblur{
+    right: -200px;
+  }
+} */
