@@ -25,11 +25,11 @@ export const Navbar = () => {
           ></img> 
           <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={()=>setMenuOpen(false)}>
-            <li>
-              <a href="#home">Home</a>
+             <li>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#experience">Experience</a>
             </li>
             <li>
               <a href="#projects">Projects</a>
