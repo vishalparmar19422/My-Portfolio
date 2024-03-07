@@ -45,11 +45,32 @@
     justify-content: center;
     width: 120px;
     height: 120px;
+    transition:  300ms;
+
+}
+.skillImgcontainer:hover{
+    scale: 1.3;
+    animation-name: rotate;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 300ms                                                                        ;
+    animation-timing-function:linear;
+
+}
+@keyframes rotate {
+   
+    50%{
+        rotate: 10deg;
+    }
+    
+   
 }
 .skill p {
     font-size:25px;
     font-family: var(--font-roboto);
     font-weight: 500;
+    z-index: 10;
 }
 .history{
     width: 45%;

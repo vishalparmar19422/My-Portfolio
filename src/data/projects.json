@@ -1,26 +1,27 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "My Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "this is my portfolio website made with react html and css for impressive sleek design and user-friendly experience",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Halal Foods",
+    "imageSrc": "projects/halalfoods.png",
+    "description": "This is a food delivery site but the diffrence is it shows dynamic data from swiggy api made with react,redux and tailwind",
     "skills": ["React", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Sundown-studio clone",
+    "imageSrc": "projects/sundown.png",
+    "description": "This is a clone of Sundown Studio ,which is a full service creative studio focusing on end-to-end design ",
     "skills": ["React", "Express", "Node"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
+ 
 ]
