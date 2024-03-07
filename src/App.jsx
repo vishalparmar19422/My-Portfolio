@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar/nav'
 import { Aboutus } from './components/about/about'
 import  Experience  from './components/experienece/experience'
 import Projects from './components/Projects/Projects'
+import { Contact } from './components/Contact/Contact'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Aboutus/>
       <Experience/>
       <Projects/>
+      <Contact/>
     </div>
     </>
   )
