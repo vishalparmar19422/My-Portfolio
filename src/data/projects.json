@@ -3,25 +3,25 @@
     "title": "My Portfolio",
     "imageSrc": "projects/portfolio.png",
     "description": "this is my portfolio website made with react html and css for impressive sleek design and user-friendly experience",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["React", "html", "css","more css"],
+    "demo": "vvishalparmar.vercel.app",
+    "source": "https://github.com/vishalparmar19422/My-Portfolio"
   },
   {
     "title": "Halal Foods",
     "imageSrc": "projects/halalfoods.png",
     "description": "This is a food delivery site but the diffrence is it shows dynamic data from swiggy api made with react,redux and tailwind",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["React", "Redux", "Tailwind"],
+    "demo": "https://halalfoods.vercel.app/",
+    "source": "https://github.com/vishalparmar19422/Halalfoods"
   },
   {
     "title": "Sundown-studio clone",
     "imageSrc": "projects/sundown.png",
     "description": "This is a clone of Sundown Studio ,which is a full service creative studio focusing on end-to-end design ",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["Html", "Css", "Js","Swiper js"],
+    "demo": "https://sundown-clone1942.netlify.app",
+    "source": "https://github.com/vishalparmar19422/sundown-clone"
   }
  
 ]
